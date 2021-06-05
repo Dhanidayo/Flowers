@@ -3,7 +3,7 @@ const Button = (props) => {
 
     return (
         <>
-            <button>{props.text}</button>
+            <button onClick={props.resizeImage}>{props.text}</button>
         </>
     );
 }
