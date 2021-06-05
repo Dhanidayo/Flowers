@@ -1,26 +1,11 @@
-// import Image from './Image';
 
-// const Button = () => {
+const Button = (props) => {
 
-//     document.querySelector('.increment-btn');
-//     document.querySelector('.decrement-btn');
+    return (
+        <>
+            <button>{props.text}</button>
+        </>
+    );
+}
 
-//     function IncreaseImgSize() {
-//         Image.style.width="566px";
-//         Image.style.height="566px";
-//     }
-
-//     function DecreaseImgSize() {
-//         Image.style.width="384px";
-//         Image.style.height="384px";
-//     }
-
-//     return (
-//         <>
-//             <button type="button" className="increment-btn" onClick={IncreaseImgSize}>Increase</button>
-//             <button type="button" className="decrement-btn" onClick={DecreaseImgSize}>Decrease</button>
-//         </>
-//     );
-// }
-
-// export default Button;
+export default Button;
